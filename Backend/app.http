@@ -1,0 +1,45 @@
+###
+http://localhost:4000/products//getcarbrand/2WWDE3
+
+###
+http://localhost:4000/products/getonecar/0c2a25d8-7289-4796-a74b-d942df36c767
+
+
+###
+POST http://localhost:4000/products/softdeletecar/3c6d361d-6de6-4345-af4c-ff5cf43f2296
+
+###
+GET http://localhost:4000/products//getproducts
+
+###
+POST http://localhost:4000/cart/subtract/21cde512-03d8-453d-b225-2687ba16fc98
+
+###
+POST http://localhost:4000/cart/add/21cde512-03d8-453d-b225-2687ba16fc98
+
+###
+POST http://localhost:4000/auth/register
+Content-Type: application/json
+
+{
+  "userName":" Wahome",
+  "email": "christinewahome519@gmail.com",
+  "password": "JuAngular123Wer$%",
+  "address": "phoneNo",
+  "country":"KEnya",
+  "fullname":"QWEED",
+  "phoneNo": "123455",
+  "emailSent":"0",
+  "isAdmin":"0"
+}
+
+###
+POST http://localhost:4000/auth/login
+Content-Type: application/json
+
+{
+  "userName":"Ian",
+  "password": "12e123Wer$%"
+}
+
+"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIzMWY4YzkxZC0zNTc1LTQ0M2YtYTAzNS1kYTUzYmVmOTViMDMiLCJ1c2VyTmFtZSI6IklhbiIsImVtYWlsIjoic2lhY0BnbWFpbC5jb20iLCJhZGRyZXNzIjoicGhvbmVObyIsInBob25lTm8iOm51bGwsImNvdW50cnkiOiJLRW55YSIsImZ1bGxuYW1lIjoiUVdFRUQiLCJlbWFpbFNlbnQiOiIwIiwiaWF0IjoxNjc2NDc2NDY4LCJleHAiOjE2ODAwNzY0Njh9.m2JBxcAgyKWxrbXneMiDEfxc0zvQQrarm1GXc4V-GYA"

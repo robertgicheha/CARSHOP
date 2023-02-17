@@ -1,0 +1,11 @@
+.cartItems{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5px;
+}
+#cart-shop{
+    display: flex;
+    justify-items: flex-end;
+    height: 50px;
+    width: 50px;
+}

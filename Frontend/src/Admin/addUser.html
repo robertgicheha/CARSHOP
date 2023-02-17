@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Box icons -->
+	
+	<link rel="stylesheet" href="admin.css">
+
+	<title>Admin Dashboard</title>
+</head>
+<body>
+
+
+	<!-- SIDEBAR -->
+	<section id="sidebar">
+		<a href="#" class="brand">
+			<span class="text">Admin Dashboard</span>
+		</a>
+		<ul class="side-menu top">
+			<li class="active">
+				<a href="admin.html">
+					<i class='bx bxs-dashboard' ></i>
+					<span class="text">Dashboard</span>
+				</a>
+			</li>
+			<li>
+				<a href="addCars.html">
+					<i class='bx bxs-shopping-bag-alt' ></i>
+					<span class="text">Add Cars</span>
+				</a>
+			</li>
+			<li>
+				<a href="addUser.html" target="_self">
+					<i class='bx bxs-doughnut-chart' ></i>
+					<span class="text">Add users</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<i class='bx bxs-message-dots' ></i>
+					<span class="text">Orders</span>
+				</a>
+			</li>
+			
+		</ul>
+	</section>
+
+	<section id="content">
+		
+		<nav>
+			<i class='bx bx-menu' style="color: white;"></i>
+			
+			<form action="#">
+				<div class="form-input">
+					<input type="search" placeholder="Search...">
+					<button type="submit" class="search-btn"><i class='bx bx-search' ></i></button>
+				</div>
+			</form>				
+			</a>
+			
+		</nav>
+		
+		<main>
+         <div class="addUser">
+           <h1>Add Users</h1> <br>
+            <form action="" class="row" id="UserForm">
+
+
+        <div class="column">
+        <label for="username">UserName</label>
+        <input type="text" id="username">
+
+        <label for="phone">Phone</label>
+        <input type="text" id="phone">
+
+        <label for="pass">Password</label>
+        <input type="password" id="pass">
+
+        <label for="address">Address</label>
+        <input type="text" id="address">
+
+        </div>
+        
+        <div class="column">
+            <label for="fullname">Full Names</label>
+        <input type="text" id="fullname">
+
+        <label for="emailAddress">Email address</label>
+        <input type="text" id="emailAddress">
+
+        <label for="cpassword">Confirm Password</label>
+        <input type="password" id="cpass">
+
+        <label for="country">Country</label>
+        <input type="text" id="country">
+        </div>
+
+     </form>
+        <Button class="reg" id="addbtn">REGISTER</Button>
+		<Button class="delete" id="delbtn">Delete</Button>
+        <Button class="update" id="updatebtn">Update</Button>
+     </div>
+     </main>
+    </section>
+	<script src="../Admin/addUser.ts"></script>
+</body>
+</html>

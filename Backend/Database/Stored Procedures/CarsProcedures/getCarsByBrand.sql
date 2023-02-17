@@ -1,0 +1,5 @@
+CREATE OR ALTER PROCEDURE getCarByBrand @Brand VARCHAR(50)
+AS
+BEGIN 
+SELECT * FROM Cars WHERE  brand =@Brand
+END
